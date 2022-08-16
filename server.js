@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-const jwt = require("jsonwebtoken");
+//const jwt = require("jsonwebtoken");
 
 require('dotenv').config();
 
@@ -29,6 +29,12 @@ const accueilRouter = require('./routes/accueil');
 const aProposRouter = require ('./routes/aPropos');
 const telechargementRouter = require('./routes/telechargement');
 const demoRouter = require('./routes/demo');
+const modeExistantRouter = require('./routes/modeExistant');
+const modeEtudeRouter = require('./routes/modeEtude');
+const modeDepotRouter = require('./routes/modeDepot');
+const modeTravauxRouter = require('./routes/modeTravaux');
+const modeGestionRouter = require('./routes/modeGestion');
+const modeRouteRouter = require('./routes/modeRoute');
 
 
 app.use('/login', loginRouter);
@@ -36,13 +42,12 @@ app.use('/accueil', accueilRouter);
 app.use('/aPropos', aProposRouter);
 app.use('/telechargement', telechargementRouter);
 app.use('/demo', demoRouter);
-
-
-/*const telechargementSchema = new Schema ({
-    _id: new mongoose.Types.ObjectId(),
-    para1: 'Les documents importants à télécharger... consectetur adipisclning elit. Suspendisse ert iololl eras pellentesque elementum lobortis. Sed ac rtef nunc auctor, molestie turpis vitae, dapibus magna.',
-    para2: 'Integer ut odio vitae ex posuere sollicitudin. Aliquam lobortis tincidunt lorem sed aliquet. Donec libero erat, pulvinar id nunc id, volutpat laoreet tortor. Praesent dapibus lacus molestie dapibus auctor.'
-})*/
+app.use('/modeExistant', modeExistantRouter); 
+app.use('/modeEtude', modeEtudeRouter);  
+app.use('/modeDepot', modeDepotRouter);     
+app.use('/modeTravaux', modeTravauxRouter);  
+app.use('/modeGestion', modeGestionRouter);  
+app.use('/modeRoute', modeRouteRouter);  
 
 
 //le port 
@@ -63,4 +68,4 @@ app.use((req, res, next) => {
       "GET, POST, PUT, DELETE, PATCH, OPTIONS"
     );
     next();
-  });
+});
