@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "62f4aeee8153a31df6cf34c9"
+  },
+  "para1": "Disposer d'une base de données multithématiques, évolutive en fonction des besoins de la collectivité (aussi bien sur les modèles de données que sur les thématiques) qui permette de tenir à jour la base de données aisément, établir de la programmation d'intervention, récurrente ou à la volée, établir des requêtes, des suivis de travaux, etc.",
+  "para2": "La base ainsi constituée permet d'anticiper sur les actions de maintenance préventive et les renouvellements et ainsi de générer des économies substantielles.",
+  "para3": "La facilité d'utilisation est un élément majeur de nos interfaces. Si on veut que quiconque mette à jour la base informative, il faut que des personnes non-initiées avec l'informatique puisse utiliser simplement la solution.",
+  "para4": "Grâce à des menus programmables par l'administrateur local de l'application, chaque écran est configurable en fonction du besoin défini par chaque collectivité.",
+  "para5": "La gestion multithématique de l'application permet de couvrir tous les besoins au sein d'une même direction.",
+  "__v": 0
+}]
