@@ -2,8 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-//Les données de la collection accueil
-const accueilSchema = new Schema({
+const fonctionsSchema = new Schema({
     para1:{
         type: String 
     }, 
@@ -21,10 +20,10 @@ const accueilSchema = new Schema({
     },
     para6:{
         type: String
-    }
+    },
 });
 
 //nom de la collection
-const accueil = mongoose.model('accueil',  accueilSchema); 
+const fonctions = mongoose.model('fonctions',  fonctionsSchema); 
                                         
-module.exports = accueil;
+module.exports = fonctions;

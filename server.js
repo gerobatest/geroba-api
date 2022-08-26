@@ -27,28 +27,26 @@ connection.once('open', () => {
 const loginRouter = require('./routes/login');
 const accueilRouter = require('./routes/accueil');
 const aProposRouter = require ('./routes/aPropos');
+const fonctionsRouter = require ('./routes/fonctions');
 const telechargementRouter = require('./routes/telechargement');
 const demoRouter = require('./routes/demo');
 const modeExistantRouter = require('./routes/modeExistant');
 const modeEtudeRouter = require('./routes/modeEtude');
-const modeDepotRouter = require('./routes/modeDepot');
+const modeStocksRouter = require('./routes/modeStocks');
 const modeTravauxRouter = require('./routes/modeTravaux');
 const modeGestionRouter = require('./routes/modeGestion');
-const modeRouteRouter = require('./routes/modeRoute');
-
 
 app.use('/login', loginRouter);
 app.use('/accueil', accueilRouter);
 app.use('/aPropos', aProposRouter);
+app.use('/fonctions', fonctionsRouter);
 app.use('/telechargement', telechargementRouter);
 app.use('/demo', demoRouter);
 app.use('/modeExistant', modeExistantRouter); 
 app.use('/modeEtude', modeEtudeRouter);  
-app.use('/modeDepot', modeDepotRouter);     
+app.use('/modeStocks', modeStocksRouter);     
 app.use('/modeTravaux', modeTravauxRouter);  
 app.use('/modeGestion', modeGestionRouter);  
-app.use('/modeRoute', modeRouteRouter);  
-
 
 //le port 
 app.listen(port, () => {

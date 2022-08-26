@@ -17,6 +17,12 @@ const aProposSchema = new Schema({
     },
     para5:{
         type: String
+    },
+    para6:{
+        type: String
+    },
+    para7:{
+        type: String
     }
 });
 

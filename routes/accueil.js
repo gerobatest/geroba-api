@@ -16,12 +16,16 @@ router.route('/add').post((req, res) => { //une requete Post
     const para2 = req.body.para2;
     const para3 = req.body.para3;
     const para4 = req.body.para4;
+    const para5 = req.body.para5;
+    const para6 = req.body.para6;
 
     const newAccueil = new accueil({
         para1, 
         para2, 
         para3, 
-        para4
+        para4,
+        para5,
+        para6
     });
 
     newAccueil.save()
@@ -29,7 +33,7 @@ router.route('/add').post((req, res) => { //une requete Post
      .catch(err => res.status(400).json('Error: ' + err));
 });
 
-router.route('/:id').get((req, res) => {
+/*router.route('/:id').get((req, res) => {
     accueil.findById(req.params.id)
       .then(content => res.json(content))
       .catch(err => res.status(400).json('Error: ' + err));
@@ -50,6 +54,6 @@ router.route('/update/:id').post((req, res) => {
           .catch(err => res.status(400).json('Error: ' + err));
       })
       .catch(err => res.status(400).json('Error: ' + err));
-  });
-
-module.exports = router; 
+  });*/
+  
+module.exports = router;
