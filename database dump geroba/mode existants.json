@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "62fb6899095ac7e407b4f7c1"
   },
-  "para1": "C’est ce qui existe sur le terrain, l’état « 0 ». Suspendisse potenti. Proin elementum erat vitae dictum aliquet. Aenean porta posuere mi, ut hendrerit arcu malesuada a. Etiam et porttitor turpis. Aenean efficitur id nisl sed ultrices. Suspendisse porttitor mollis ornare.",
-  "para2": "Ceci est encore un texte fictif. porttitor ipsum ac lobortis. Donec sed condimentum erat. Nullam pretium rutrum finibus. Pellentesque dui urna, luctus at rutrum.",
+  "para1": "Il est mis en place soit grâce à des données existantes au sein de la collectivité (par exemple des données Sig au format « .shp » importables ; il peut également être réalisé au travers d’un relevé traditionnel pédestre grâce à la solution mobile de l’application ; enfin, il peut être réalisé en tout ou partie, à l’aide d’un relevé images terrain (différentes solutions possibles, dont du 360°) et une exploitation de type IA (Intelligence Artificielle).",
+  "para2": "A chaque objet de la base, il peut être associé autant de photos que souhaité (avec choix de la photo de « couverture ») ainsi que des documents techniques liés à l’objet ; par exemple, documentation technique d’un équipement, note de calcul d’un PPHM, … Cet existant est ensuite mis à jour au fur et à mesure des évolutions du terrain.",
   "__v": 0
 }]

@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "62fb799208a960e4bcb44136"
   },
-  "para1": "La maîtrise d’ouvrage décide d’engager des travaux de changement ou de maintenance ; elle confie une mission à une entreprise ou en régie et le maître d’œuvre va suivre les actions, pas à pas suivant le détail, modulable, défini en amont.",
-  "para2": "Travaux pharetra porttitor ipsum ac lobortis. Donec sed condimentum erat. Nullam pretium rutrum finibus. Pellentesque dui urna, luctus at rutrum a, condimentum sit amet orci. Nulla facilisi.",
+  "para1": "La maîtrise d'ouvrage décide d'engager des travaux de changement ou de maintenance ; elle confie une mission à une entreprise ou en régie et le maître d'oeuvre va suivre les actions, pas à pas suivant le détail, modulable, défini en amont. Le maître d'œuvre défini en amont du lancement du chantier le suivi qu’il souhaite avoir au travers d’une interface modulable. Il peut définir des points d’arrêts, les photos attendues à chacune des étapes. Celui qui exécute va alors « dire » ce qu’il fait suivant la décomposition en actions unitaires définies précédemment. Chaque action est horodatée ",
+  "para2": "Maître d'ouvrage, maître d'œuvre et entreprises peuvent également communiquer, via l’application, sur un objet en fonction de ce qui se passe sur le terrain, les éléments visualisables sur les photos, … Ces échanges sont alors conservés dans l’historique des travaux. Les travaux peuvent concerner une ou plusieurs entreprises. Prochainement, il sera possible de valoriser, aussi bien pour la maîtrise d'ouvrage que pour les entreprises, les travaux réalisés ; ainsi, établissement et vérification des situations de travaux sont simplifiées.",
   "__v": 0
 }]

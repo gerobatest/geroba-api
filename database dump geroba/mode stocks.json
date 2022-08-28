@@ -1,0 +1,7 @@
+[{
+  "_id": {
+    "$oid": "6307775828713ee2ee48a571"
+  },
+  "para1": "Pour certains équipements, la collectivité dispose de stocks dans ses propres dépôts. Mais, qu’est ce qui est disponible, depuis quand et ou se trouvent ses équipements ? Ce statut permet d’assurer la gestion des équipements qui sont dans des dépôts localisés et qui serviront à des travaux de maintenance. La particularité de ce module stock est sa fonction « Import » qui permet, si la relation a ainsi été contractualisée, que ce soit le fournisseur qui alimente la base stock. Le lien avec les équipements en stock peut se faire par QR Code ou Code barre. La saisie peut également se faire manuellement lors de l’entrée en stock des équipements avec des identifiants (QR Code ou Code barre) créés par l’application et imprimable.",
+  "para2": "Chaque objet est alors associé à ses caractéristiques technique et la pose d’un équipements sur un lieu permet automatiquement d’affecter ces caractéristiques à l’objet nouvellement mis en œuvre et à mettre le stock à jour. Il est possible de modifier l’affectation d’un objet d’un dépôt à un autre et de disposer d’une vision centralisée de tous les dépôts. "
+}]

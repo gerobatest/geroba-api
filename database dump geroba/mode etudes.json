@@ -2,7 +2,7 @@
   "_id": {
     "$oid": "62fb74cd08a960e4bcb344d8"
   },
-  "para1": "Il s’agit du fruit de l’expertise de l’existant et la définition de ce qu’il devrait y avoir. Dictum aliquet. Aenean porta posuere mi, ut hendrerit arcu malesuada a. Etiam et porttitor turpis. Aenean efficitur id nisl sed ultrices. Suspendisse porttitor mollis ornare.",
-  "para2": "Maurice porttitor ipsum ac lobortis. Donec sed condimentum erat. Nullam pretium rutrum finibus. Pellentesque dui urna, luctus at rutrum a, condimentum sit amet orci. Nulla facilisi",
+  "para1": "Les études sont réalisés avec les outils techniques dont dispose l’opérateur. Elles sont ensuite intégrées dans l’application soit en affectant les spécifications à des points existants, soit en créant de nouveaux points si l’étude conclu au rajout de certains équipements. Les spécifications des objets sont renseignées avec le niveau de détail souhaité ; elles pourront être complétées ultérieurement).",
+  "para2": "A noter que pour certaines thématiques, des interfaces d’intégration d’attributs de façon semi-automatiques ont été développées. La récupération des données peut également être complétée par des application d’IA, également développés en périphérie de la solution.",
   "__v": 0
 }]

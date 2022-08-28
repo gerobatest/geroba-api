@@ -1,10 +1,12 @@
 [{
   "_id": {
-    "$oid": "62f4b39a58220766f5eb62fa"
+    "$oid": "62fceb669e792edc3432c36b"
   },
-  "para1": "La solution GEROBA permet de procéder à un état des lieux permanent du patrimoine routier permettant de répondre aux besoins des collectivités sur le sujet de la gestion de celui-ci. Elle a particulièrement pris en compte le volet \"mise à jour\" afin que garantir que la base puisse être actualisée.",
-  "para2": "La solution a été développée autour de quelques concept fondamentaux : <b>une version pour les gestionnaire pour PC et une version mobile pour toutes les interventions terrain.</b>",
-  "para3": "L'application est simple d'utilisation et adaptée à la fois aux cadres managers et aux agents de terrain. Elle permet que celui qui réalise une action (régie et/ou entreprise) renseigne lui même la base, sans compétence numérique.",
-  "para4": "4) Elle permet également une gestion dynamique des stocks, de l'usine à la pose des équipements.",
+  "para1": "GEROBA permet de procéder à une gestion du patrimoine routier (et prochainement bâtiment), à partir d’un état des lieux existants (récupérable dès lors que les données sont géolocalisées) ou à réaliser par la collectivité ou par nos soins.",
+  "para2": "Cette solution permet de répondre aux besoins des collectivités sur la gestion de celui-ci. Elle a particulièrement pris en compte le volet \"mise à jour\" afin de garantir que la base puisse être facilement actualisée.",
+  "para3": "La solution a été développée autour de quelques concepts fondamentaux : <b>une version pour les gestionnaires sur PC pour analyser le patrimoine au travers de multiples requêtes, la définition d’actions de terrain qui sont alors mise en œuvre à l’aide d’une version mobile (Android) pour toutes les : relevé initial, surveillance, mise à jour, suivi de travaux, maintenance, ….</b>",
+  "para4": "L'application est simple d'utilisation et adaptée à la fois aux cadres managers et aux agents de terrain. Elle permet que celui qui réalise une action (régie et/ou entreprise) renseigne lui même la base, en temps réel ou en temps différé, sans avoir besoin de compétence numérique.",
+  "para5": "Elle permet également une gestion dynamique des stocks, de l'usine à la pose des équipements.",
+  "para6": "La solution est aussi bien destinée aux maîtres d'ouvrage, aux maître d'œuvres ainsi qu’aux entreprises.",
   "__v": 0
 }]
