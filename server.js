@@ -35,6 +35,7 @@ const modeEtudeRouter = require('./routes/modeEtude');
 const modeStocksRouter = require('./routes/modeStocks');
 const modeTravauxRouter = require('./routes/modeTravaux');
 const modeGestionRouter = require('./routes/modeGestion');
+const tarificationRouter = require('./routes/tarification');
 
 app.use('/login', loginRouter);
 app.use('/accueil', accueilRouter);
@@ -47,6 +48,7 @@ app.use('/modeEtude', modeEtudeRouter);
 app.use('/modeStocks', modeStocksRouter);     
 app.use('/modeTravaux', modeTravauxRouter);  
 app.use('/modeGestion', modeGestionRouter);  
+app.use('/tarification', tarificationRouter); 
 
 //le port 
 app.listen(port, () => {
