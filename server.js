@@ -1,15 +1,21 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-//const jwt = require("jsonwebtoken");
 
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 9000; //port
+const port = process.env.PORT || 9000;
 
 
-app.use(cors());
+const corsOptions ={
+  origin:'*', 
+  credentials:true,         
+  optionSuccessStatus:200
+}
+
+app.use(cors(corsOptions));
+
 app.use(express.json());
 
 const uri = process.env.ATLAS_URI;
@@ -55,17 +61,3 @@ app.listen(port, () => {
     console.log(`Server is running on port: ${port}`);
 })
 
-
-//Eviter les erreurs cors 
-app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "*");
-    res.setHeader(
-      "Access-Control-Allow-Headers",
-      "Origin, X-Requested-With, Content, Accept, Content-Type, Authorization"
-    );
-    res.setHeader(
-      "Access-Control-Allow-Methods",
-      "GET, POST, PUT, DELETE, PATCH, OPTIONS"
-    );
-    next();
-});
